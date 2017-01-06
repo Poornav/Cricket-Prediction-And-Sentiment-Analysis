@@ -27,4 +27,7 @@ Rule based classification :
 
 
 How to run? :
-Download all the code files and dataset, put them in a folder and run cricovers.py and cricPred.py to see the sentiments and analysis.
+Download all the code files and dataset, put them in a folder and run cricPred.py to see the sentiments and analysis.
+
+Requirements :
+Install a python module named prettytable using the command "pip install prettytable"
