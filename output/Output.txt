@@ -1,0 +1,97 @@
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:32:19) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: D:\books\Projects to be uploaded on github\Cricket-Prediction-And-Sentiment-Analysis\dmproject\cricPred.py 
+---------------------------------------
+FIRST INNINGS
++---------------------+------+-------+--------+-------+------------+
+|       BATSMEN       | Runs | Balls | FOUR'S | SIXES | StrikeRate |
++---------------------+------+-------+--------+-------+------------+
+|       Tharanga      |  2   |   19  |   0    |   0   |   10.53    |
+|        Dilshan      |  33  |   47  |   3    |   0   |   70.21    |
+|      Sangakkara     |  48  |   67  |   5    |   0   |   71.64    |
+|  Mahela Jayawardene | 103  |   87  |   13   |   0   |   118.39   |
+|      Samaraweera    |  21  |   34  |   2    |   0   |   61.76    |
+|      Kapugedera     |  1   |   5   |   0    |   0   |    20.0    |
+|      Kulasekara     |  32  |   30  |   1    |   1   |   106.67   |
+|        Perera       |  22  |   8   |   3    |   1   |   275.0    |
++---------------------+------+-------+--------+-------+------------+
++--------------+-------+------+---------+-------------+
+|    BOWLER    | OVERS | RUNS | WICKETS | EconomyRate |
++--------------+-------+------+---------+-------------+
+|   Zaheer     |   10  |  60  |    2    |     6.0     |
+|  Sreesanth   |   8   |  53  |    0    |     6.63    |
+| Munaf Patel  |   9   |  41  |    0    |     4.56    |
+|  Harbhajan   |   10  |  50  |    1    |     5.0     |
+|   Yuvraj     |   10  |  49  |    2    |     4.9     |
+|  Tendulkar   |   2   |  12  |    0    |     6.0     |
+|    Kohli     |   1   |  6   |    0    |     6.0     |
++--------------+-------+------+---------+-------------+
+--------------------------------------------------------------------------
+SECOND INNINGS
++------------+------+-------+--------+-------+------------+
+|  BATSMEN   | Runs | Balls | FOUR'S | SIXES | StrikeRate |
++------------+------+-------+--------+-------+------------+
+|   Sehwag   |  0   |   2   |   0    |   0   |    0.0     |
+|   Gambhir  |  97  |  119  |   9    |   0   |   81.51    |
+|  Tendulkar |  18  |   14  |   2    |   0   |   128.57   |
+|    Kohli   |  35  |   49  |   4    |   0   |   71.43    |
+|    Dhoni   |  91  |   77  |   8    |   2   |   118.18   |
+|   Yuvraj   |  21  |   23  |   2    |   0   |    91.3    |
++------------+------+-------+--------+-------+------------+
++---------------+-------+------+---------+-------------+
+|     BOWLER    | OVERS | RUNS | WICKETS | EconomyRate |
++---------------+-------+------+---------+-------------+
+|    Malinga    |   9   |  42  |    2    |     4.67    |
+|  Kulasekara   |   8   |  64  |    0    |     8.0     |
+|    Perera     |   9   |  55  |    1    |     6.11    |
+|    Randiv     |   9   |  43  |    0    |     4.78    |
+|    Dilshan    |   5   |  27  |    1    |     5.4     |
+| Muralitharan  |   8   |  39  |    0    |     4.88    |
++---------------+-------+------+---------+-------------+
+---------------------------------------
+Batsmen classification
++---------------------+-------------+
+|       BATSMAN       | PERFORMANCE |
++---------------------+-------------+
+|        Yuvraj       |     Bad     |
+|         Kohli       |   Average   |
+|       Tendulkar     |     Bad     |
+|       Tharanga      |     Bad     |
+|      Samaraweera    |     Bad     |
+|      Sangakkara     |   Average   |
+|        Gambhir      |     Good    |
+|      Kulasekara     |   Average   |
+|      Kapugedera     |     Bad     |
+|        Perera       |   Average   |
+|        Sehwag       |     Bad     |
+|         Dhoni       |     Good    |
+|  Mahela Jayawardene |     Good    |
+|        Dilshan      |     Bad     |
++---------------------+-------------+
+---------------------------------------
+Bowler classification
++---------------+-------------+
+|     BOWLER    | PERFORMANCE |
++---------------+-------------+
+|   Sreesanth   |     Bad     |
+|     Kohli     |   Average   |
+| Muralitharan  |     Bad     |
+|    Randiv     |   Average   |
+|   Tendulkar   |     Bad     |
+|    Dilshan    |     Bad     |
+|    Yuvraj     |     Good    |
+|  Munaf Patel  |   Average   |
+|    Perera     |   Average   |
+|  Kulasekara   |   Average   |
+|    Zaheer     |     Good    |
+|   Harbhajan   |   Average   |
+|    Malinga    |     Good    |
++---------------+-------------+
+---------------------------------------
+Match prediction
+Prediction at 10.0:Team batting second will lose
+Prediction at 20.0:Team batting second will lose
+Prediction at 30.0:Team batting second will lose
+Prediction at 40.0:Team batting second will win
+>>> 
