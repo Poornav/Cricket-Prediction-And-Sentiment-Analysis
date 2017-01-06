@@ -23,4 +23,8 @@ Rule based classification :
 
 *) To classify the players based on their performance.
 *) This is done by calculating the rating of a player by obtaining statistics about their performance at different stages of the match, with weightage given to each stage
-*) A seperating point on the rating is calculated to classify
+*) A seperating point on the rating is calculated to classify.
+
+
+How to run? :
+Download all the code files and dataset, put them in a folder and run cricovers.py and cricPred.py to see the sentiments and analysis.
